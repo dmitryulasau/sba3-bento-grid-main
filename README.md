@@ -1,5 +1,7 @@
 ## Bento Grid Project - Reflection
 
+### Frontend Mentor challenge link: [here](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj)
+
 During this project, one of the main challenges was understanding how to organize the layout and make everything look good on different screen sizes. I also needed to figure out how to position the cards correctly and keep consistent spacing between them.
 
 I approached these challenges by breaking the design into smaller sections and working on each part step by step. I experimented with different layouts and adjusted sizes, gaps, and alignment to achieve the desired result.

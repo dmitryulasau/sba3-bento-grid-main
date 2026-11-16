@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "DM Sans";
+  src: url(./assets/fonts/DMSans-VariableFont_opsz\,wght.ttf) format("woff2");
+}
+
+@font-face {
+  font-family: "DM Sans Italic";
+  src: url(./assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf)
+    format("woff2");
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -5,9 +16,64 @@
 
 body {
   min-height: 100vh;
+  font-family: "DM Sans", sans-serif;
 }
 
+.main {
+  min-height: 100vh;
+}
 :root {
   /* Colors */
   --white: #ffffff;
+  --black: #121212;
+  --purple-100: #dbd1fc;
+  --purple-500: #7551dc;
+  --yellow-100: #f9eee2;
+  --yellow-500: #ffcc6a;
 }
+
+/* GRID SETUP */
+
+/* Desktop */
+.grid-cols-responsive {
+  --bs-columns: 4;
+  --bs-gap: 2rem;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .grid-cols-responsive {
+    --bs-columns: 2;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .grid-cols-responsive {
+    --bs-columns: 1;
+  }
+}
+
+/* Colors */
+.grid__item--yellow-100 {
+  background-color: var(--yellow-100);
+}
+
+.grid__item--yellow-500 {
+  background-color: var(--yellow-500);
+}
+
+.grid__item--purple-100 {
+  background-color: var(--purple-100);
+}
+
+.grid__item--purple-500 {
+  background-color: var(--purple-500);
+}
+
+.grid__item {
+  max-width: 256px;
+  width: 100%;
+}
+
+/* g-col-6 md:g-col-12 sm:g-col-12  */
