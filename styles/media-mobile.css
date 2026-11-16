@@ -1,0 +1,6 @@
+/* Mobile */
+@media (max-width: 576px) {
+  .grid-cols-responsive {
+    --bs-columns: 1;
+  }
+}

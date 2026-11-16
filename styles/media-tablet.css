@@ -1,0 +1,6 @@
+/* Tablet */
+@media (max-width: 768px) {
+  .grid-cols-responsive {
+    --bs-columns: 2;
+  }
+}
