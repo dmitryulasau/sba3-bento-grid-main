@@ -1,0 +1,21 @@
+/* Colors */
+.card--yellow-100 {
+  background-color: var(--yellow-100);
+}
+
+.card--yellow-500 {
+  background-color: var(--yellow-500);
+}
+
+.card--purple-100 {
+  background-color: var(--purple-100);
+}
+
+.card--purple-500 {
+  background-color: var(--purple-500);
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
