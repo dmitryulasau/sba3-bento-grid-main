@@ -2,7 +2,7 @@
 
 .grid-cols-responsive {
   --bs-columns: 4;
-  --bs-gap: 2rem;
+  max-width: 1120px;
   width: 100%;
 }
 
