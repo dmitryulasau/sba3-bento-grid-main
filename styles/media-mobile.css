@@ -3,4 +3,16 @@
   .grid-cols-responsive {
     --bs-columns: 1;
   }
+
+  .grid__item--card-1,
+  .grid__item--card-2,
+  .grid__item--card-3,
+  .grid__item--card-4,
+  .grid__item--card-5,
+  .grid__item--card-6,
+  .grid__item--card-7,
+  .grid__item--card-8 {
+    grid-column: 1;
+    grid-row: auto;
+  }
 }
