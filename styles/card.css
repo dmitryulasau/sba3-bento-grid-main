@@ -22,18 +22,18 @@
   height: 100%;
 }
 
-h2.card-title {
-  font-size: clamp(2rem, 3vw, 2.5rem);
-  line-height: 90%;
-  letter-spacing: -2px;
-}
-
 h1.card-title {
   font-size: 3.875rem;
   line-height: 93.5%;
   letter-spacing: -3px;
   text-align: center;
   margin-bottom: 1.5rem;
+}
+
+h2.card-title {
+  font-size: clamp(2rem, 3vw, 2.5rem);
+  line-height: 90%;
+  letter-spacing: -2px;
 }
 
 h3.card-title {
@@ -43,9 +43,6 @@ h3.card-title {
 }
 
 /* 1 */
-.card--card-1 {
-}
-
 .text-italic {
   font-family: "DM Sans Italic", sans-serif;
   font-style: italic;
@@ -151,7 +148,16 @@ h3.card-title {
 /* -------------------------------- */
 
 /* 7 */
-.card--card-7 {
+.card--card-7 h2 {
+  font-size: 3.875rem;
+  line-height: 93.5%;
+  letter-spacing: -3px;
+  margin-bottom: 15px;
+}
+.card-image-7 {
+  width: 140%;
+  max-width: 178px;
+  height: auto;
 }
 /* -------------------------------- */
 
