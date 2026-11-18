@@ -119,11 +119,34 @@ h3.card-title {
 
 /* 5 */
 .card--card-5 {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-image-5 {
+  position: absolute;
+  width: 140%;
+  max-width: 316px;
+  height: auto;
+  left: 1.5rem;
+  top: 1.5rem;
+  box-shadow: -10px 12px 24px 0 rgba(98, 26, 123, 0.05);
 }
 /* -------------------------------- */
 
 /* 6 */
 .card--card-6 {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-image-6 {
+  position: absolute;
+  width: 140%;
+  max-width: 208px;
+  height: auto;
+  left: 1.5rem;
+  top: 152px;
 }
 /* -------------------------------- */
 
