@@ -36,6 +36,12 @@ h1.card-title {
   margin-bottom: 1.5rem;
 }
 
+h3.card-title {
+  font-size: 2rem;
+  line-height: 87.5%;
+  letter-spacing: -1px;
+}
+
 /* 1 */
 .card--card-1 {
 }
@@ -45,6 +51,8 @@ h1.card-title {
   font-style: italic;
   color: var(--purple-500);
 }
+/* -------------------------------- */
+
 /* 2 */
 .card--card-2 {
   color: var(--white);
@@ -69,10 +77,33 @@ h1.card-title {
   letter-spacing: 1px;
   font-weight: 400;
 }
+/* -------------------------------- */
 
 /* 3 */
 .card--card-3 {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  position: relative;
+  overflow: hidden;
 }
+
+.card-image--3 {
+  position: absolute;
+  width: 140%;
+  max-width: 358px;
+  height: auto;
+  left: 2rem;
+  top: 8rem;
+}
+
+.card-text--preset-4 {
+  font-size: 17px;
+  line-height: 111%;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+/* -------------------------------- */
+
 /* 4 */
 .card--card-4 {
   position: relative;
@@ -84,16 +115,23 @@ h1.card-title {
   bottom: 1.5rem;
   left: 1.5rem;
 }
+/* -------------------------------- */
 
 /* 5 */
 .card--card-5 {
 }
+/* -------------------------------- */
+
 /* 6 */
 .card--card-6 {
 }
+/* -------------------------------- */
+
 /* 7 */
 .card--card-7 {
 }
+/* -------------------------------- */
+
 /* 8 */
 .card--card-8 {
   color: var(--white);
@@ -105,3 +143,4 @@ h1.card-title {
 .card-image-8 {
   max-width: 228px;
 }
+/* -------------------------------- */
