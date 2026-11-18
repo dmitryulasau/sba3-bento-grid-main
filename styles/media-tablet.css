@@ -1,5 +1,5 @@
 /* Tablet */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .grid-cols-responsive {
     --bs-columns: 2;
     grid-template-rows: none;
