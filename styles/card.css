@@ -28,6 +28,14 @@ h2.card-title {
   letter-spacing: -2px;
 }
 
+h1.card-title {
+  font-size: 3.875rem;
+  line-height: 93.5%;
+  letter-spacing: -3px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
 /* 1 */
 .card--card-1 {
 }
@@ -39,10 +47,29 @@ h2.card-title {
 }
 /* 2 */
 .card--card-2 {
+  color: var(--white);
+}
+
+.card-image-2 {
+  max-width: 192px;
+  margin-bottom: 8px;
 }
 
 .text-gold {
+  color: var(--yellow-500);
 }
+
+.text-italic--white {
+  color: var(--white);
+}
+
+.card-text--2 {
+  font-size: 1.125rem;
+  line-height: 111%;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
 /* 3 */
 .card--card-3 {
 }
