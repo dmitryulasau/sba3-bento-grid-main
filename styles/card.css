@@ -22,11 +22,14 @@
   height: 100%;
 }
 
-/* 1 */
-.card--card-1 {
+h2.card-title {
   font-size: clamp(2rem, 3vw, 2.5rem);
   line-height: 90%;
   letter-spacing: -2px;
+}
+
+/* 1 */
+.card--card-1 {
 }
 
 .text-italic {
@@ -37,14 +40,14 @@
 /* 2 */
 .card--card-2 {
 }
+
+.text-gold {
+}
 /* 3 */
 .card--card-3 {
 }
 /* 4 */
 .card--card-4 {
-  font-size: clamp(2rem, 3vw, 2.5rem);
-  line-height: 90%;
-  letter-spacing: -2px;
   position: relative;
 }
 
@@ -66,4 +69,12 @@
 }
 /* 8 */
 .card--card-8 {
+  color: var(--white);
+}
+.card--card-8 h2 {
+  letter-spacing: -1px;
+}
+
+.card-image-8 {
+  max-width: 228px;
 }
